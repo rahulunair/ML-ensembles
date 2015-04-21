@@ -1,0 +1,23 @@
+---
+title: "A study of machine learning algorithms"
+author: "Rahul Unnikrishnan Nair"
+output: html_document
+---
+
+### **Abstract**
+
+
+*A study of machine learning algorithms and ensemble of these algorithms to see if combination of these algorithms would improve the overall prediction accuracy of the same. Machine learning algorithms surveyed  here include supervised learning techniques like neural networks, fuzzy inference based networks, combination or ensemble of fuzzy and neural network or a fuzzy neural network, decision trees  and random forest algorithms.These algorithms are tested on the `concrete` dataset. This dataset has a set of attributes like, ash, water, coarse aggregation, fine aggregation, strength etc. The approach used here is to create predictive models based on the surveyed machine learning approaches in predicting the strength of concrete.*
+
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
